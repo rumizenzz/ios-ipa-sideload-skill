@@ -16,7 +16,7 @@ Autonomously sideloads iOS apps (`.ipa`) onto an iPhone or iPad with a guided wo
 
 This repo ships the skill at:
 
-- `skills/ios-ipa-sideload/`
+- `ios-ipa-sideload/`
 
 Copy it into your Codex skills folder:
 
@@ -25,7 +25,7 @@ Copy it into your Codex skills folder:
 ```bash
 CODEX_HOME="${CODEX_HOME:-$HOME/.codex}"
 mkdir -p "$CODEX_HOME/skills"
-cp -R "skills/ios-ipa-sideload" "$CODEX_HOME/skills/"
+cp -R "ios-ipa-sideload" "$CODEX_HOME/skills/"
 ```
 
 - Windows (PowerShell):
@@ -33,7 +33,7 @@ cp -R "skills/ios-ipa-sideload" "$CODEX_HOME/skills/"
 ```powershell
 $codexHome = if ($env:CODEX_HOME) { $env:CODEX_HOME } else { Join-Path $env:USERPROFILE ".codex" }
 New-Item -ItemType Directory -Force -Path (Join-Path $codexHome "skills") | Out-Null
-Copy-Item -Recurse -Force -Path "skills\\ios-ipa-sideload" -Destination (Join-Path (Join-Path $codexHome "skills") "ios-ipa-sideload")
+Copy-Item -Recurse -Force -Path "ios-ipa-sideload" -Destination (Join-Path (Join-Path $codexHome "skills") "ios-ipa-sideload")
 ```
 
 Then restart Codex.
@@ -43,4 +43,3 @@ Then restart Codex.
 In Codex, run:
 
 `/ios-ipa-sideload`
-
