@@ -8,9 +8,11 @@ Autonomously sideloads iOS apps (`.ipa`) onto an iPhone or iPad with a guided wo
 
 ## Requirements
 
-- Codex IDE extension installed
+- Codex installed (IDE extension on Windows/macOS, or Codex app on macOS)
 - Signed in
 - Run Codex once (so it creates your Codex folder on disk)
+
+Note: The Codex app is currently macOS-only. Windows users should use the Codex IDE extension.
 
 ## Install (manual)
 
