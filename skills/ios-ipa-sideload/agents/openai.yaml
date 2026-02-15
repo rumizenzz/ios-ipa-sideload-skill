@@ -1,0 +1,18 @@
+interface:
+  display_name: "iOS IPA Sideloader"
+  short_description: "Autonomously sideloads iOS apps (.ipa files) onto an iPhone or iPad."
+  icon_small: "./assets/ios-ipa-sideload-icon-400.png"
+  icon_large: "./assets/ios-ipa-sideload-icon-800.png"
+  brand_color: "#0F172A"
+  default_prompt: "Use $ios-ipa-sideload as the master skill for this domain. On first-time use, ask a one-shot intake (single block), then propose a plan before edits. Use scripts for deterministic steps and never print or commit secrets."
+
+author: Manus
+
+prompt_examples:
+  - "I need to install Douyin on my iPhone, but it's not in my App Store. Can you help me sideload it?"
+  - "Help me get the decrypted IPA for Seedance 2.0 and install it on my iPad."
+  - "Use the ios-ipa-sideload skill to put this app on my phone."
+
+antiprompt_examples:
+  - "How do I install an app from the Google Play Store?"
+  - "Can you help me find a good recipe for apple pie?"
